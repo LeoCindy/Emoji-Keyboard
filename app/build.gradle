@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVer
+    defaultConfig {
+        applicationId "com.leonardpark.emoji_sample"
+        minSdkVersion rootProject.ext.minSdkVer
+        targetSdkVersion rootProject.ext.targetSdkVer
+
+        vectorDrawables.useSupportLibrary = true
+    }
+}
+
+dependencies {
+
+    api project(path: ':emoji_ios')
+    api project(path: ':emoji_google')
+    api project(path: ':emoji_microsoft')
+    api project(path: ':emoji_samsung')
+    api project(path: ':emoji_twitter')
+    api project(path: ':emoji_facebook')
+    api project(path: ':emoji_emojione')
+    api project(path: ':emoji_emojipedia')
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:28.0.0'
+
+    implementation "com.android.support:recyclerview-v7:28.0.0"
+}

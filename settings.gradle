@@ -1,0 +1,10 @@
+include ':app',
+        ':emoji',
+        ':emoji_ios', // iOS
+        ':emoji_google', // Google
+        ':emoji_microsoft', // Micrsoft
+        ':emoji_samsung', // Samsung
+        ':emoji_twitter', // Twitter
+        ':emoji_facebook', // Facebook
+        ':emoji_emojione', // EmojiOne
+        ':emoji_emojipedia' // Emojipedia

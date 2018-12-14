@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Emoji_Sample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="variant_group_title">Emoji Variant</string>
+
+    <string name="ios_title">iOS</string>
+    <string name="google_title">Google</string>
+    <string name="microsoft_title">Microsoft</string>
+    <string name="samsung_title">Samsung</string>
+    <string name="twitter_title">Twitter</string>
+    <string name="facebook_title">Facebook</string>
+    <string name="emojione_title">EmojiOne</string>
+    <string name="emojipedia_title">Emojipedia</string>
+</resources>

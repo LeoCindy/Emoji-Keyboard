@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.leonardpark.emoji_sample.MainActivity">
+
+    <item
+        android:id="@+id/menu_search_option"
+        android:icon="@drawable/ic_swap"
+        android:title="@string/variant_group_title"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/switch_ios"
+                    android:title="@string/ios_title" />
+                <item
+                    android:id="@+id/switch_google"
+                    android:title="@string/google_title" />
+                <item
+                    android:id="@+id/switch_microsoft"
+                    android:title="@string/microsoft_title" />
+                <item
+                    android:id="@+id/switch_samsung"
+                    android:title="@string/samsung_title" />
+                <item
+                    android:id="@+id/switch_twitter"
+                    android:title="@string/twitter_title" />
+                <item
+                    android:id="@+id/switch_facebook"
+                    android:title="@string/facebook_title" />
+                <item
+                    android:id="@+id/switch_emojione"
+                    android:title="@string/emojione_title" />
+                <item
+                    android:id="@+id/switch_emojipedia"
+                    android:title="@string/emojipedia_title" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
